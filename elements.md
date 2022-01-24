@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: What is "Cycle Soccer"?
+description: サイクルサッカーって、何？？
+image: assets/images/P1060160.jpeg
 nav-menu: true
 ---
 

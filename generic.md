@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Events/Topics
+description: イベント情報やトピック
+image: assets/images/keeper1.jpeg
 nav-menu: true
 ---
 

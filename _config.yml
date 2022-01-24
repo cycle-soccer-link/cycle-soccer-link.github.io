@@ -1,17 +1,17 @@
 # site settings
 title: CYCLE-SOCCER.LINK
-subtitle: 
-email: tokibeck@gmail.com
+subtitle:
+email: cyclesoccer.link@gmail.com
 description: Awesome Cycle Soccer Web site.
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 
-city: 
-state: 
-zip_code: 
+street_address:
+city:
+state:
+zip_code:
 country: Japan
-phone: 
+phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -24,9 +24,9 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/cycle-soccer-link/cycle-soccer-link.github.io
   GitLab:
-  Google-Plus: 
+  Google-Plus:
   Instagram:
-  LinkedIn: 
+  LinkedIn:
   Twitter: https://twitter.com/CycleSoccerLINK
   Facebook:
   Slack:
@@ -41,4 +41,4 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
