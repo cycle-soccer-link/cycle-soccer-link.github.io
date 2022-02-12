@@ -1,7 +1,10 @@
 <!-- Contact -->
 <section id="contact">
-	<div class="inner">
-		<section>
+  <div class="inner">
+    <section>
+      <h2>CYCLE-SOCCER.LINK</h2>
+      <p>これはテストメッセージです。</p>
+<!--
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Name</label>
@@ -20,6 +23,7 @@
 					<li><input type="reset" value="Clear" /></li>
 				</ul>
 			</form>
+-->
 		</section>
 		<section class="split">
 			<section>
@@ -29,37 +33,16 @@
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
-			<section>
+      <section>
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
+					<span class="icon alt fa-twitter"></span>
+					<h3>Twitter</h3>
+					<a href="{{ site.socials.Twitter }}">{{ site.socials.Twitter }}</a>
 				</div>
 			</section>
 		</section>
+
+
 	</div>
 </section>
 
