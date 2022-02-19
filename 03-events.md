@@ -23,6 +23,9 @@ nav-menu: true
 {{ post.title }}
 </h3>
 </header>
+<h2>
+開催日 {{ post.eventdate }}
+</h2>
 <p>
 	{{ post.description }}
 </p>
