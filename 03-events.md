@@ -12,28 +12,33 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
+		<div class="row">
 
+		{% for post in site.posts %}
+		{% if post.title != 404 %}
+		{% if post.tag != "training" %}
 
-{% for post in site.posts %}
-{% if post.title != 404 %}
-{% if post.tag != "training" %}
-	<a href="{{ post.url }}">
-<header class="major">
-<h3>
-{{ post.title }}
-</h3>
-</header>
-<h2>
-開催日 {{ post.eventdate }}
-</h2>
-<p>
-	{{ post.description }}
-</p>
-</a>
-{% endif %}
-{% endif %}
+			<div class="6u 12u$(small)">
+				<a href="{{ post.url }}">
+					<header class="major">
+						<h3>
+						{{ post.title }}
+						</h3>
+					</header>
+					<h2>
+						開催日 {{ post.eventdate }}
+					</h2>
+					<p>
+						{{ post.description }}
+					</p>
+				</a>
+			</div>
+
+		{% endif %}
+		{% endif %}
 		{% endfor %}
 
+		</div>
 	</div>
 </section>
 
