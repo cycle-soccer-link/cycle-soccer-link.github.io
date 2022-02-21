@@ -2,7 +2,7 @@
 layout: landing
 title: Let's Get Started!
 description: サイクルサッカーを始めよう！
-image: assets/images/P1060160.jpeg
+image: assets/images/P1190720.jpeg
 nav-menu: true
 ---
 
