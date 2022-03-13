@@ -26,7 +26,7 @@ nav-menu: true
 						</h3>
 					</header>
 					<h2>
-						開催日 {{ post.eventdate }}
+						{{ post.eventdate }}
 					</h2>
 					<p>
 						{{ post.description }}
